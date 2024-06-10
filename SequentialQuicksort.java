@@ -17,7 +17,7 @@ public class SequentialQuicksort {
 		
 		//La función principal de partition es reorganizar los elementos de tal
 		//manera de que todos los elementos menores que el pivote se coloquen a 
-		//su izquierda, y los mayores se colocen a su derecha.
+		//su izquierda, y los mayores se coloquen a su derecha.
 		//Además, coloca el pivote en la posición correcta en el array ordenado.
 		public static int partition(int[] arr, int low, int high) {
 			//seleccionar el pivote
